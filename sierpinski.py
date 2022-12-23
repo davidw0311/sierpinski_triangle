@@ -31,11 +31,11 @@ for i in range(10000):
     if i % 1000 == 0:
         print('frame', i)
         
-cv2.imwrite("seirpinski.jpg",limg)
+cv2.imwrite("sierpinski.jpg",limg)
 
 
 frame_one = frames[0]
 print("saving gif ...")
-frame_one.save("seirpinski.gif", format="GIF", append_images=frames,
+frame_one.save("sierpinski.gif", format="GIF", append_images=frames,
         save_all=True, loop=0)
     
